@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'DJPong' target in the 'DJPong' project
+//
+
+#include "SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
